@@ -15,5 +15,10 @@ class PlaygroundAppUITests: XCTestCase {
         app.launch()
 
         XCTAssertTrue(app.staticTexts[UITestsHelpers().text].exists)
+
+        // This verifies the XCUIElementQuery+Sequence extension works
+        app.staticTexts.forEach {
+            XCTAssertNotNil($0.value as? String)
+        }
     }
 }
