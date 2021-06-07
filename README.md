@@ -1,3 +1,3 @@
-# SwiftUITestsHelpers
+# XCTest UI Tests Helpers
 
-A description of this package.
+A collection of helper methods to make writing UI tests easier.
