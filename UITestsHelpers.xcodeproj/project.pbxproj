@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3FF14241266DB44900138163 /* UITestsHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF1423F266DB44900138163 /* UITestsHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FF1424D266DB46C00138163 /* UITestsHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1424C266DB46C00138163 /* UITestsHelpersTests.swift */; };
 		3FF1424F266DB46C00138163 /* UITestsHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* UITestsHelpers.framework */; };
+		3FF14261266DB7AB00138163 /* UITestsHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */; };
+		3FF14262266DB7AB00138163 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14260266DB7AB00138163 /* XCTestManifests.swift */; };
+		3FF14268266DB7D000138163 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14267266DB7D000138163 /* UITestsHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +29,10 @@
 		3FF1423F266DB44900138163 /* UITestsHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestsHelpers.h; sourceTree = "<group>"; };
 		3FF14240266DB44900138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF1424A266DB46C00138163 /* UITestsHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestsHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF1424C266DB46C00138163 /* UITestsHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsHelpersTests.swift; sourceTree = "<group>"; };
 		3FF1424E266DB46C00138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestsHelpersTests.swift; sourceTree = "<group>"; };
+		3FF14260266DB7AB00138163 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		3FF14267266DB7D000138163 /* UITestsHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +75,23 @@
 		3FF1423E266DB44900138163 /* UITestsHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				3FF14267266DB7D000138163 /* UITestsHelpers.swift */,
 				3FF1423F266DB44900138163 /* UITestsHelpers.h */,
 				3FF14240266DB44900138163 /* Info.plist */,
 			);
-			path = UITestsHelpers;
+			name = UITestsHelpers;
+			path = Sources/UITestsHelpers;
 			sourceTree = "<group>";
 		};
 		3FF1424B266DB46C00138163 /* UITestsHelpersTests */ = {
 			isa = PBXGroup;
 			children = (
-				3FF1424C266DB46C00138163 /* UITestsHelpersTests.swift */,
 				3FF1424E266DB46C00138163 /* Info.plist */,
+				3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */,
+				3FF14260266DB7AB00138163 /* XCTestManifests.swift */,
 			);
-			path = UITestsHelpersTests;
+			name = UITestsHelpersTests;
+			path = Tests/UITestsHelpersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +155,11 @@
 				TargetAttributes = {
 					3FF1423B266DB44900138163 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					3FF14249266DB46C00138163 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -194,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF14268266DB7D000138163 /* UITestsHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF1424D266DB46C00138163 /* UITestsHelpersTests.swift in Sources */,
+				3FF14261266DB7AB00138163 /* UITestsHelpersTests.swift in Sources */,
+				3FF14262266DB7AB00138163 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UITestsHelpers/Info.plist;
+				INFOPLIST_FILE = Sources/UITestsHelpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UITestsHelpers/Info.plist;
+				INFOPLIST_FILE = Sources/UITestsHelpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,6 +401,7 @@
 		3FF14253266DB46C00138163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -439,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UITestsHelpersTests/Info.plist;
+				INFOPLIST_FILE = Tests/UITestsHelpersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +475,7 @@
 		3FF14254266DB46C00138163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -506,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = UITestsHelpersTests/Info.plist;
+				INFOPLIST_FILE = Tests/UITestsHelpersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
