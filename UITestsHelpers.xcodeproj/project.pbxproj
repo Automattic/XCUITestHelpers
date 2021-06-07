@@ -20,6 +20,9 @@
 		3FF14284266DB85500138163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF14282266DB85500138163 /* LaunchScreen.storyboard */; };
 		3FF1429A266DB85500138163 /* PlaygroundAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14299266DB85500138163 /* PlaygroundAppUITests.swift */; };
 		3FF142B4266DB91C00138163 /* UITestsHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* UITestsHelpers.framework */; };
+		3FF142C4266DBA3500138163 /* XCUIApplication+Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */; };
+		3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */; };
+		3FF142C6266DBA3500138163 /* XCUIElementQuery+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */; };
 		3FF142D0266DBA5800138163 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF142CF266DBA5800138163 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		3FF14295266DB85500138163 /* PlaygroundAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF14299266DB85500138163 /* PlaygroundAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundAppUITests.swift; sourceTree = "<group>"; };
 		3FF1429B266DB85500138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+Device.swift"; sourceTree = "<group>"; };
+		3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIElement+TextManagement.swift"; sourceTree = "<group>"; };
+		3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIElementQuery+Sequence.swift"; sourceTree = "<group>"; };
 		3FF142CF266DBA5800138163 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +133,9 @@
 				3FF14240266DB44900138163 /* Info.plist */,
 				3FF1423F266DB44900138163 /* UITestsHelpers.h */,
 				3FF14267266DB7D000138163 /* UITestsHelpers.swift */,
+				3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */,
+				3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */,
+				3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */,
 			);
 			name = UITestsHelpers;
 			path = Sources/UITestsHelpers;
@@ -354,6 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF14268266DB7D000138163 /* UITestsHelpers.swift in Sources */,
+				3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */,
+				3FF142C4266DBA3500138163 /* XCUIApplication+Device.swift in Sources */,
+				3FF142C6266DBA3500138163 /* XCUIElementQuery+Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
