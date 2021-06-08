@@ -10,8 +10,15 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "UITestsHelpers", dependencies: []),
-        .testTarget(name: "UITestsHelpersTests", dependencies: ["UITestsHelpers"]),
+        .target(
+            name: "UITestsHelpers",
+            exclude: ["Info.plist"]
+        ),
+        .testTarget(
+            name: "UITestsHelpersTests",
+            dependencies: ["UITestsHelpers"],
+            exclude: ["Info.plist"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )
