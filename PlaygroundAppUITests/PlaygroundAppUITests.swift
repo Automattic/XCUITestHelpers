@@ -1,7 +1,7 @@
 // Important: don't use @testable here because we want to make sure we're testing the framework
 // in the same way a real world user would consume it. That is, without access to the `internal`
 // methods.
-import UITestsHelpers
+import XCUITestHelpers
 import XCTest
 
 class PlaygroundAppUITests: XCTestCase {
@@ -14,7 +14,7 @@ class PlaygroundAppUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        XCTAssertTrue(app.staticTexts[UITestsHelpers().text].exists)
+        XCTAssertTrue(app.staticTexts[XCUITestHelpers().text].exists)
 
         // This verifies the XCUIElementQuery+Sequence extension works
         app.staticTexts.forEach {

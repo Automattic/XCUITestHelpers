@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF14241266DB44900138163 /* UITestsHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF1423F266DB44900138163 /* UITestsHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FF1424F266DB46C00138163 /* UITestsHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* UITestsHelpers.framework */; };
-		3FF14261266DB7AB00138163 /* UITestsHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */; };
+		3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */; };
+		3F762E8C26777BAF0088CD45 /* XCUITestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF1424F266DB46C00138163 /* XCUITestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* XCUITestHelpers.framework */; };
+		3FF14261266DB7AB00138163 /* XCUITestHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1425F266DB7AB00138163 /* XCUITestHelpersTests.swift */; };
 		3FF14262266DB7AB00138163 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14260266DB7AB00138163 /* XCTestManifests.swift */; };
-		3FF14268266DB7D000138163 /* UITestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14267266DB7D000138163 /* UITestsHelpers.swift */; };
 		3FF14278266DB85400138163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14277266DB85400138163 /* AppDelegate.swift */; };
 		3FF1427A266DB85400138163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14279266DB85400138163 /* SceneDelegate.swift */; };
 		3FF1427C266DB85400138163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1427B266DB85400138163 /* ContentView.swift */; };
@@ -19,7 +19,7 @@
 		3FF14281266DB85500138163 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF14280266DB85500138163 /* Preview Assets.xcassets */; };
 		3FF14284266DB85500138163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF14282266DB85500138163 /* LaunchScreen.storyboard */; };
 		3FF1429A266DB85500138163 /* PlaygroundAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF14299266DB85500138163 /* PlaygroundAppUITests.swift */; };
-		3FF142B4266DB91C00138163 /* UITestsHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* UITestsHelpers.framework */; };
+		3FF142B4266DB91C00138163 /* XCUITestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* XCUITestHelpers.framework */; };
 		3FF142C4266DBA3500138163 /* XCUIApplication+Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */; };
 		3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */; };
 		3FF142C6266DBA3500138163 /* XCUIElementQuery+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */; };
@@ -32,7 +32,7 @@
 			containerPortal = 3FF14231266DB35900138163 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3FF1423B266DB44900138163;
-			remoteInfo = UITestsHelpers;
+			remoteInfo = XCUITestHelpers;
 		};
 		3FF14296266DB85500138163 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -44,14 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FF1423C266DB44900138163 /* UITestsHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITestsHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF1423F266DB44900138163 /* UITestsHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITestsHelpers.h; sourceTree = "<group>"; };
+		3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUITestHelpers.swift; sourceTree = "<group>"; };
+		3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUITestHelpers.h; sourceTree = "<group>"; };
+		3FF1423C266DB44900138163 /* XCUITestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCUITestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF14240266DB44900138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FF1424A266DB46C00138163 /* UITestsHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestsHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF1424A266DB46C00138163 /* XCUITestHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF1424E266DB46C00138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestsHelpersTests.swift; sourceTree = "<group>"; };
+		3FF1425F266DB7AB00138163 /* XCUITestHelpersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUITestHelpersTests.swift; sourceTree = "<group>"; };
 		3FF14260266DB7AB00138163 /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		3FF14267266DB7D000138163 /* UITestsHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestsHelpers.swift; sourceTree = "<group>"; };
 		3FF14275266DB85400138163 /* PlaygroundApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF14277266DB85400138163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF14279266DB85400138163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF1424F266DB46C00138163 /* UITestsHelpers.framework in Frameworks */,
+				3FF1424F266DB46C00138163 /* XCUITestHelpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF142B4266DB91C00138163 /* UITestsHelpers.framework in Frameworks */,
+				3FF142B4266DB91C00138163 /* XCUITestHelpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 		3FF14230266DB35900138163 = {
 			isa = PBXGroup;
 			children = (
-				3FF1423E266DB44900138163 /* UITestsHelpers */,
-				3FF1424B266DB46C00138163 /* UITestsHelpersTests */,
+				3FF1423E266DB44900138163 /* XCUITestHelpers */,
+				3FF1424B266DB46C00138163 /* XCUITestHelpersTests */,
 				3FF14276266DB85400138163 /* PlaygroundApp */,
 				3FF14298266DB85500138163 /* PlaygroundAppUITests */,
 				3FF1423D266DB44900138163 /* Products */,
@@ -119,37 +119,37 @@
 		3FF1423D266DB44900138163 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FF1423C266DB44900138163 /* UITestsHelpers.framework */,
-				3FF1424A266DB46C00138163 /* UITestsHelpersTests.xctest */,
+				3FF1423C266DB44900138163 /* XCUITestHelpers.framework */,
+				3FF1424A266DB46C00138163 /* XCUITestHelpersTests.xctest */,
 				3FF14275266DB85400138163 /* PlaygroundApp.app */,
 				3FF14295266DB85500138163 /* PlaygroundAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FF1423E266DB44900138163 /* UITestsHelpers */ = {
+		3FF1423E266DB44900138163 /* XCUITestHelpers */ = {
 			isa = PBXGroup;
 			children = (
 				3FF14240266DB44900138163 /* Info.plist */,
-				3FF1423F266DB44900138163 /* UITestsHelpers.h */,
-				3FF14267266DB7D000138163 /* UITestsHelpers.swift */,
 				3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */,
 				3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */,
 				3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */,
+				3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */,
+				3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */,
 			);
-			name = UITestsHelpers;
-			path = Sources/UITestsHelpers;
+			name = XCUITestHelpers;
+			path = Sources/XCUITestHelpers;
 			sourceTree = "<group>";
 		};
-		3FF1424B266DB46C00138163 /* UITestsHelpersTests */ = {
+		3FF1424B266DB46C00138163 /* XCUITestHelpersTests */ = {
 			isa = PBXGroup;
 			children = (
 				3FF1424E266DB46C00138163 /* Info.plist */,
-				3FF1425F266DB7AB00138163 /* UITestsHelpersTests.swift */,
 				3FF14260266DB7AB00138163 /* XCTestManifests.swift */,
+				3FF1425F266DB7AB00138163 /* XCUITestHelpersTests.swift */,
 			);
-			name = UITestsHelpersTests;
-			path = Tests/UITestsHelpersTests;
+			name = XCUITestHelpersTests;
+			path = Tests/XCUITestHelpersTests;
 			sourceTree = "<group>";
 		};
 		3FF14276266DB85400138163 /* PlaygroundApp */ = {
@@ -198,16 +198,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF14241266DB44900138163 /* UITestsHelpers.h in Headers */,
+				3F762E8C26777BAF0088CD45 /* XCUITestHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3FF1423B266DB44900138163 /* UITestsHelpers */ = {
+		3FF1423B266DB44900138163 /* XCUITestHelpers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF14244266DB44900138163 /* Build configuration list for PBXNativeTarget "UITestsHelpers" */;
+			buildConfigurationList = 3FF14244266DB44900138163 /* Build configuration list for PBXNativeTarget "XCUITestHelpers" */;
 			buildPhases = (
 				3FF14237266DB44900138163 /* Headers */,
 				3FF14238266DB44900138163 /* Sources */,
@@ -218,14 +218,14 @@
 			);
 			dependencies = (
 			);
-			name = UITestsHelpers;
-			productName = UITestsHelpers;
-			productReference = 3FF1423C266DB44900138163 /* UITestsHelpers.framework */;
+			name = XCUITestHelpers;
+			productName = XCUITestHelpers;
+			productReference = 3FF1423C266DB44900138163 /* XCUITestHelpers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FF14249266DB46C00138163 /* UITestsHelpersTests */ = {
+		3FF14249266DB46C00138163 /* XCUITestHelpersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF14252266DB46C00138163 /* Build configuration list for PBXNativeTarget "UITestsHelpersTests" */;
+			buildConfigurationList = 3FF14252266DB46C00138163 /* Build configuration list for PBXNativeTarget "XCUITestHelpersTests" */;
 			buildPhases = (
 				3FF14246266DB46C00138163 /* Sources */,
 				3FF14247266DB46C00138163 /* Frameworks */,
@@ -236,9 +236,9 @@
 			dependencies = (
 				3FF14251266DB46C00138163 /* PBXTargetDependency */,
 			);
-			name = UITestsHelpersTests;
-			productName = UITestsHelpersTests;
-			productReference = 3FF1424A266DB46C00138163 /* UITestsHelpersTests.xctest */;
+			name = XCUITestHelpersTests;
+			productName = XCUITestHelpersTests;
+			productReference = 3FF1424A266DB46C00138163 /* XCUITestHelpersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3FF14274266DB85400138163 /* PlaygroundApp */ = {
@@ -283,7 +283,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					3FF1423B266DB44900138163 = {
 						CreatedOnToolsVersion = 12.4;
@@ -302,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FF14234266DB35900138163 /* Build configuration list for PBXProject "UITestsHelpers" */;
+			buildConfigurationList = 3FF14234266DB35900138163 /* Build configuration list for PBXProject "XCUITestHelpers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -315,8 +315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF1423B266DB44900138163 /* UITestsHelpers */,
-				3FF14249266DB46C00138163 /* UITestsHelpersTests */,
+				3FF1423B266DB44900138163 /* XCUITestHelpers */,
+				3FF14249266DB46C00138163 /* XCUITestHelpersTests */,
 				3FF14274266DB85400138163 /* PlaygroundApp */,
 				3FF14294266DB85500138163 /* PlaygroundAppUITests */,
 			);
@@ -362,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF14268266DB7D000138163 /* UITestsHelpers.swift in Sources */,
+				3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */,
 				3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */,
 				3FF142C4266DBA3500138163 /* XCUIApplication+Device.swift in Sources */,
 				3FF142C6266DBA3500138163 /* XCUIElementQuery+Sequence.swift in Sources */,
@@ -373,7 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF14261266DB7AB00138163 /* UITestsHelpersTests.swift in Sources */,
+				3FF14261266DB7AB00138163 /* XCUITestHelpersTests.swift in Sources */,
 				3FF14262266DB7AB00138163 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +401,7 @@
 /* Begin PBXTargetDependency section */
 		3FF14251266DB46C00138163 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3FF1423B266DB44900138163 /* UITestsHelpers */;
+			target = 3FF1423B266DB44900138163 /* XCUITestHelpers */;
 			targetProxy = 3FF14250266DB46C00138163 /* PBXContainerItemProxy */;
 		};
 		3FF14297266DB85500138163 /* PBXTargetDependency */ = {
@@ -426,12 +426,66 @@
 		3FF14235266DB35900138163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		3FF14236266DB35900138163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Release;
 		};
@@ -493,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/UITestsHelpers/Info.plist;
+				INFOPLIST_FILE = Sources/XCUITestHelpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -504,7 +558,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.UITestsHelpers;
+				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.XCUITestHelpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -569,7 +623,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Sources/UITestsHelpers/Info.plist;
+				INFOPLIST_FILE = Sources/XCUITestHelpers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -579,7 +633,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.UITestsHelpers;
+				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.XCUITestHelpers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -647,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/UITestsHelpersTests/Info.plist;
+				INFOPLIST_FILE = Tests/XCUITestHelpersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -657,7 +711,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.UITestsHelpersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.XCUITestHelpersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -715,7 +769,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tests/UITestsHelpersTests/Info.plist;
+				INFOPLIST_FILE = Tests/XCUITestHelpersTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,7 +778,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.UITestsHelpersTests;
+				PRODUCT_BUNDLE_IDENTIFIER = oss.Automattic.XCUITestHelpersTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1028,7 +1082,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FF14234266DB35900138163 /* Build configuration list for PBXProject "UITestsHelpers" */ = {
+		3FF14234266DB35900138163 /* Build configuration list for PBXProject "XCUITestHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FF14235266DB35900138163 /* Debug */,
@@ -1037,7 +1091,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF14244266DB44900138163 /* Build configuration list for PBXNativeTarget "UITestsHelpers" */ = {
+		3FF14244266DB44900138163 /* Build configuration list for PBXNativeTarget "XCUITestHelpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FF14242266DB44900138163 /* Debug */,
@@ -1046,7 +1100,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF14252266DB46C00138163 /* Build configuration list for PBXNativeTarget "UITestsHelpersTests" */ = {
+		3FF14252266DB46C00138163 /* Build configuration list for PBXNativeTarget "XCUITestHelpersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FF14253266DB46C00138163 /* Debug */,

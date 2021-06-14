@@ -1,12 +1,12 @@
 import XCTest
-@testable import UITestsHelpers
+@testable import XCUITestHelpers
 
-final class SwiftUITestsHelpersTests: XCTestCase {
+final class XCUITestHelpersTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(UITestsHelpers().text, "Hello, World!")
+        XCTAssertEqual(XCUITestHelpers().text, "Hello, World!")
     }
 
     static var allTests = [

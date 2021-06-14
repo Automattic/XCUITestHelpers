@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "UITestsHelpers",
+    name: "XCUITestHelpers",
     platforms: [ .iOS(.v13) ],
     products: [
-        .library(name: "UITestsHelpers", targets: ["UITestsHelpers"]),
+        .library(name: "XCUITestHelpers", targets: ["XCUITestHelpers"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "UITestsHelpers",
+            name: "XCUITestHelpers",
             exclude: ["Info.plist"]
         ),
         .testTarget(
-            name: "UITestsHelpersTests",
-            dependencies: ["UITestsHelpers"],
+            name: "XCUITestHelpersTests",
+            dependencies: ["XCUITestHelpersTests"],
             exclude: ["Info.plist"]
         ),
     ],

@@ -1,7 +1,6 @@
 import XCTest
-
-import SwiftUITestsHelpersTests
+import XCUITestHelpers
 
 var tests = [XCTestCaseEntry]()
-tests += SwiftUITestsHelpersTests.allTests()
+tests += XCUITestHelpersTests.allTests()
 XCTMain(tests)
