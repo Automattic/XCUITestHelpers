@@ -38,6 +38,16 @@
                ReferencedContainer = "container:XCUITestHelpers.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3FF14294266DB85500138163"
+               BuildableName = "PlaygroundAppUITests.xctest"
+               BlueprintName = "PlaygroundAppUITests"
+               ReferencedContainer = "container:XCUITestHelpers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
