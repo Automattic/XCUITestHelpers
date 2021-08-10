@@ -20,10 +20,5 @@ class PlaygroundAppUITests: XCTestCase {
         app.staticTexts.forEach {
             XCTAssertNotNil($0.value as? String)
         }
-
-        // We can't control the device appearance mode (light vs dark) from the tests, so we just
-        // check the method returns consistent results
-        XCTAssertNotEqual(XCUIDevice.userInterfaceStyle, .unspecified)
-        XCTAssertNotEqual(XCUIDevice.inDarkMode, XCUIDevice.inLightMode)
     }
 }
