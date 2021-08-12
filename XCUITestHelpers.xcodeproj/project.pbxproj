@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1CA82126C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */; };
 		3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */; };
 		3F762E8C26777BAF0088CD45 /* XCUITestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F8CDAD926C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8CDAD826C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift */; };
+		3F95FF4226C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */; };
 		3FDF285326C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF285226C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift */; };
 		3FF1424F266DB46C00138163 /* XCUITestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* XCUITestHelpers.framework */; };
 		3FF14261266DB7AB00138163 /* XCUITestHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1425F266DB7AB00138163 /* XCUITestHelpersTests.swift */; };
@@ -46,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIDevice+UserInterfaceIdiom.swift"; sourceTree = "<group>"; };
 		3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUITestHelpers.swift; sourceTree = "<group>"; };
 		3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUITestHelpers.h; sourceTree = "<group>"; };
 		3F8CDAD826C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIDevice+UserInterfaceStyleTests.swift"; sourceTree = "<group>"; };
+		3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIDeviceUserInterfaceIdiomTests.swift; sourceTree = "<group>"; };
 		3FDF285226C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIDevice+UserInterfaceStyle.swift"; sourceTree = "<group>"; };
 		3FF1423C266DB44900138163 /* XCUITestHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCUITestHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF14240266DB44900138163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			children = (
 				3FF14240266DB44900138163 /* Info.plist */,
 				3FF142C1266DBA3500138163 /* XCUIApplication+Device.swift */,
+				3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */,
 				3FDF285226C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift */,
 				3FF142C2266DBA3500138163 /* XCUIElement+TextManagement.swift */,
 				3FF142C3266DBA3500138163 /* XCUIElementQuery+Sequence.swift */,
@@ -185,6 +190,7 @@
 				3FF1429B266DB85500138163 /* Info.plist */,
 				3FF14299266DB85500138163 /* PlaygroundAppUITests.swift */,
 				3F8CDAD826C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift */,
+				3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */,
 			);
 			path = PlaygroundAppUITests;
 			sourceTree = "<group>";
@@ -368,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1CA82126C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift in Sources */,
 				3FDF285326C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift in Sources */,
 				3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */,
 				3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */,
@@ -401,6 +408,7 @@
 			files = (
 				3F8CDAD926C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift in Sources */,
 				3FF1429A266DB85500138163 /* PlaygroundAppUITests.swift in Sources */,
+				3F95FF4226C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
