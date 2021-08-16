@@ -16,7 +16,7 @@ let package = Package(
         ),
         .testTarget(
             name: "XCUITestHelpersTests",
-            dependencies: ["XCUITestHelpersTests"],
+            dependencies: ["XCUITestHelpers"],
             exclude: ["Info.plist"]
         ),
     ],
