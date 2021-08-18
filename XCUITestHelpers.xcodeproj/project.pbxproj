@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F1C9AE226CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C9AE126CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift */; };
+		3F1C9AE326CC9E0E00101E82 /* XCUIElementQuery+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4726C5425A007731D3 /* XCUIElementQuery+Position.swift */; };
 		3F1CA82126C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */; };
 		3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */; };
 		3F762E8C26777BAF0088CD45 /* XCUITestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +16,6 @@
 		3F95FF4226C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */; };
 		3F95FF4426C53A15007731D3 /* XCUIApplication+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4326C53A15007731D3 /* XCUIApplication+StatusBar.swift */; };
 		3F95FF4626C53E0D007731D3 /* XCUIElement+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4526C53E0D007731D3 /* XCUIElement+Async.swift */; };
-		3F95FF4826C5425A007731D3 /* XCUIElementQuery+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4726C5425A007731D3 /* XCUIElementQuery+Position.swift */; };
 		3FDF285326C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF285226C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift */; };
 		3FF1424F266DB46C00138163 /* XCUITestHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF1423C266DB44900138163 /* XCUITestHelpers.framework */; };
 		3FF14261266DB7AB00138163 /* XCUITestHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1425F266DB7AB00138163 /* XCUITestHelpersTests.swift */; };
@@ -387,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1CA82126C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift in Sources */,
+				3F1C9AE326CC9E0E00101E82 /* XCUIElementQuery+Position.swift in Sources */,
 				3FDF285326C1EC5E0027CF19 /* XCUIDevice+UserInterfaceStyle.swift in Sources */,
 				3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */,
 				3FF142C5266DBA3500138163 /* XCUIElement+TextManagement.swift in Sources */,
@@ -421,7 +422,6 @@
 				3F8CDAD926C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift in Sources */,
 				3F95FF4426C53A15007731D3 /* XCUIApplication+StatusBar.swift in Sources */,
 				3F95FF4626C53E0D007731D3 /* XCUIElement+Async.swift in Sources */,
-				3F95FF4826C5425A007731D3 /* XCUIElementQuery+Position.swift in Sources */,
 				3FF1429A266DB85500138163 /* PlaygroundAppUITests.swift in Sources */,
 				3F1C9AE226CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift in Sources */,
 				3F95FF4226C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift in Sources */,
