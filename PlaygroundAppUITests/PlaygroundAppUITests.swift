@@ -6,21 +6,27 @@ import XCTest
 
 class PlaygroundAppUITests: XCTestCase {
 
+    let app = XCUIApplication()
+
     override func setUpWithError() throws {
         continueAfterFailure = false
+        app.launch()
     }
 
-    func testExample() throws {
-        let app = XCUIApplication()
-        app.launch()
-
-        XCTAssertTrue(app.staticTexts["button has not been tapped"].exists)
-        XCTAssertFalse(app.staticTexts["button was tapped"].exists)
-
-        // This verifies the XCUIElementQuery+Sequence extension works
+    func testElementQueryIterator() {
+        // This verifies the `XCUIElementQuery+Sequence` extension works by exercising the `forEach`
+        // method the extension makes available.
         app.staticTexts.forEach {
             XCTAssertNotNil($0.value as? String)
         }
+    }
+
+    func testWaitForIsHittable() {
+        let buttonNotTappedText = "button has not been tapped"
+        let buttonTappedText = "button was tapped"
+
+        XCTAssertTrue(app.staticTexts[buttonNotTappedText].exists)
+        XCTAssertFalse(app.staticTexts[buttonTappedText].exists)
 
         let button = app.buttons["button"]
         // This is a shallow test... To make it actually verify asynchronous behavior, we should
