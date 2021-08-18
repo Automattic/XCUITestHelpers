@@ -29,7 +29,7 @@ class PlaygroundAppUITests: XCTestCase {
 
         button.tap()
 
-        XCTAssertFalse(app.staticTexts["button has not been tapped"].exists)
-        XCTAssertTrue(app.staticTexts["button was tapped"].exists)
+        XCTAssertFalse(app.staticTexts[buttonNotTappedText].exists)
+        XCTAssertTrue(app.staticTexts[buttonTappedText].exists)
     }
 }
