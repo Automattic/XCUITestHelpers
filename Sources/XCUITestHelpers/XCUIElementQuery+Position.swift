@@ -2,6 +2,7 @@ import XCTest
 
 extension XCUIElementQuery {
 
+    /// Whether all elements in the query are aligned over the x axis.
     public var allElementsShareCommonAxisX: Bool {
         let elementsXPositions = allElementsBoundByIndex.map { $0.frame.minX }
 
