@@ -19,4 +19,5 @@ SIMULATOR_VERSION='14.5'
 xcodebuild clean test \
   -project 'XCUITestHelpers.xcodeproj' \
   -scheme 'XCUITestHelpers' \
-  -destination "platform=iOS Simulator,name=$SIMULATOR_NAME,OS=$SIMULATOR_VERSION"
+  -destination "platform=iOS Simulator,name=$SIMULATOR_NAME,OS=$SIMULATOR_VERSION" \
+  -quiet
