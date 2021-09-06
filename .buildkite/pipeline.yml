@@ -1,0 +1,11 @@
+env:
+  IMAGE_ID: xcode-12.5.1
+agents:
+  queue: 'mac'
+
+steps:
+  - label: "🧪 Build and Test (iPhone 12 Simulator)"
+    command: .buildkite/commands/run-tests.sh 'iPhone 12'
+
+  - label: "🧪 Build and Test (iPad Pro (12.9-inch) (5th generation) Simulator)"
+    command: .buildkite/commands/run-tests.sh 'iPad Pro (12.9-inch) (5th generation)'
