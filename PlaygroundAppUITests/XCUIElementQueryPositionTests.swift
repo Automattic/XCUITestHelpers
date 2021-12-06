@@ -10,6 +10,15 @@ class XCUIElementQueryPositionTests: XCTestCase {
         app.launch()
     }
 
+    func testFullyVisible() {
+        // In the scroll view with the alphabet's letters, "a" is at the top and should be fully
+        // visible.
+        XCTAssertTrue(app.staticTexts["a"].isFullyVisibleOnScreen())
+        // In the scroll view with the alphabet's letters, "z" is at the bottom and should out of
+        // screen.
+        XCTAssertFalse(app.staticTexts["z"].isFullyVisibleOnScreen())
+    }
+
     func testElementsShareCommonAxisX() {
         let labelContains: (String) -> NSPredicate = { string in
             return NSPredicate { object, _ in
