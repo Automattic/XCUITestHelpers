@@ -11,6 +11,7 @@
 		3F1C9AE326CC9E0E00101E82 /* XCUIElementQuery+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95FF4726C5425A007731D3 /* XCUIElementQuery+Position.swift */; };
 		3F1C9AE526CCA4B300101E82 /* XCUIElementQueryPositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C9AE426CCA4B300101E82 /* XCUIElementQueryPositionTests.swift */; };
 		3F1CA82126C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */; };
+		3F3A56A427621485001D0C03 /* XCTWaiter.Result+CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A56A327621485001D0C03 /* XCTWaiter.Result+CustomStringConvertible.swift */; };
 		3F4D7F94275E308000650353 /* XCUIElement+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4D7F93275E308000650353 /* XCUIElement+Visibility.swift */; };
 		3F762E8B26777BAF0088CD45 /* XCUITestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */; };
 		3F762E8C26777BAF0088CD45 /* XCUITestHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +58,7 @@
 		3F1C9AE126CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+StatusBarTests.swift"; sourceTree = "<group>"; };
 		3F1C9AE426CCA4B300101E82 /* XCUIElementQueryPositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElementQueryPositionTests.swift; sourceTree = "<group>"; };
 		3F1CA82026C3E7A300228BF2 /* XCUIDevice+UserInterfaceIdiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIDevice+UserInterfaceIdiom.swift"; sourceTree = "<group>"; };
+		3F3A56A327621485001D0C03 /* XCTWaiter.Result+CustomStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTWaiter.Result+CustomStringConvertible.swift"; sourceTree = "<group>"; };
 		3F4D7F93275E308000650353 /* XCUIElement+Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Visibility.swift"; sourceTree = "<group>"; };
 		3F762E8926777BAF0088CD45 /* XCUITestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUITestHelpers.swift; sourceTree = "<group>"; };
 		3F762E8A26777BAF0088CD45 /* XCUITestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCUITestHelpers.h; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			children = (
 				3FF1429B266DB85500138163 /* Info.plist */,
 				3FF14299266DB85500138163 /* PlaygroundAppUITests.swift */,
+				3F3A56A327621485001D0C03 /* XCTWaiter.Result+CustomStringConvertible.swift */,
 				3F1C9AE126CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift */,
 				3F8CDAD826C2261F00A4A814 /* XCUIDevice+UserInterfaceStyleTests.swift */,
 				3F95FF4126C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift */,
@@ -432,6 +435,7 @@
 				3F95FF4626C53E0D007731D3 /* XCUIElement+Async.swift in Sources */,
 				3FF1429A266DB85500138163 /* PlaygroundAppUITests.swift in Sources */,
 				3F1C9AE226CC9C9300101E82 /* XCUIApplication+StatusBarTests.swift in Sources */,
+				3F3A56A427621485001D0C03 /* XCTWaiter.Result+CustomStringConvertible.swift in Sources */,
 				3F95FF4226C534A8007731D3 /* XCUIDeviceUserInterfaceIdiomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
