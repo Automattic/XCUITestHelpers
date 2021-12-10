@@ -12,16 +12,23 @@ extension XCUIElement {
         // Avoid unnecessary waiting if the element is already hittable
         guard isHittable == false else { return true }
 
-        let result = XCTWaiter.wait(
-            for: [
-                XCTNSPredicateExpectation(
-                    predicate: NSPredicate(format: "isHittable == true"),
-                    object: self
-                )
-            ],
+        return waitFor(predicateString: "isHittable == true", timeout: timeout) == .completed
+    }
+
+    /// Uses the given `String` to create an `NSPredicate` and waits for it to be true on `self` for
+    /// the given `timeout` (defaults to 3 seconds)
+    @discardableResult
+    public func waitFor(predicateString: String, timeout: TimeInterval = 3.0) -> XCTWaiter.Result {
+        waitFor(predicate: NSPredicate(format: predicateString), timeout: timeout)
+    }
+
+    /// Waits for the given `NSPredicate` to be true on `self` for the given `timeout` (default to
+    /// 3 seconds)
+    @discardableResult
+    public func waitFor(predicate: NSPredicate, timeout: TimeInterval = 3.0) -> XCTWaiter.Result {
+        XCTWaiter.wait(
+            for: [ XCTNSPredicateExpectation(predicate: predicate, object: self) ],
             timeout: timeout
         )
-
-        return result == .completed
     }
 }
